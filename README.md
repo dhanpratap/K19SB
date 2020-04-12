@@ -1,2 +1,2 @@
-# K19SB
-Internet Programming-HTML-CSS
+# K19SB-G-18
+Student Record Management System
