@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student record management system</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="myex2.css">
+ <link rel="stylesheet" type="text/css" href="myex4.css">
+  <script type="text/javascript" src="myexj1.js"></script>
+</head>
+<body>
+  
+
+  <ul class="main-navigation">
+  <li><a href="Home.html">Home</a></li>
+
+  <li><a href="About.html">About</a></li>
+
+
+  <li><a href="#">Record</a>
+    <ul>
+
+      <li><a href="#">K19SB</a>
+        <ul>
+          <li><a href="saurav.html">Saurav</a></li>
+          <li><a href="shivang.html">Shivang</a></li>
+          <li><a href="saurav.html">Pujjita</a></li>
+          <li><a href="shivang.html">Vikash</a></li>
+          <li><a href="saurav.html">Anand</a></li>
+          <li><a href="shivang.html">Rishav</a></li>
+          <li><a href="saurav.html">Aviral</a></li>
+          <li><a href="shivang.html">Shivam</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">K19AZ</a>
+        <ul>
+          <li><a href="saurav.html">Shantanu</a></li>
+          <li><a href="shivang.html">Ram</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">K19RT</a>
+        <ul>
+          <li><a href="saurav.html">Krishna</a></li>
+          <li><a href="shivang.html">Sachin</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">K19RJ</a>
+        <ul>
+          <li><a href="saurav.html">Rahul</a></li>
+          <li><a href="shivang.html">Kaushik</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </li>
+
+
+  <li><a href="Contact.html">Contact</a></li>
+</ul>
+
+
+
+
+<div class="column1">
+  <img src="srms.jpg">
+</div>
+<div class="column1">
+  <div class="column2">
+    <h2 style="color: red; padding-top: 10px;">Student Record Management System</h2><p style="font-size: 1.5em; color: blue;">The main objective of this project is to build a website for student record management system that will show records of students. It is purposed to reduce time spent on administrative tasks.</p>
+  </div>
+  <div class="column2">
+    <video width="100%" height="297" autoplay>
+  <source src="srmsv6.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+  </div>
+  
+  <div class="column2">
+    <img src="lpu1.jpg">
+  </div>
+  <div class="column2">
+    
+   <h2 style="color: red; padding-top: 10px;">LPU Ranked 2nd by HackerEarth, Leaving behind many IIts</h2> <p style="font-size: 1.5em; color: blue;">HackerEarth ranked LPU at 2nd position in race of most technologically aware crowd thrusting LPU ahead of IIts and NITs.</p>
+
+  </div>
+</div>
+
+
+
+  <!-- The grid: three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background: rgba(140,140,140,0.2);"><b>Announcement</b><br>AMCAT test for all B. Tech students graduating in 2022 and 2023....... </div>
+  <div class="column" onclick="openTab('b2');" style="background:rgba(140,140,140,0.2);"><b>Upcoming Event</b><br>Recent Trends In Biomedical Sciences<br>
+   2020 (RTBS-2020).......</div>
+  <div class="column" onclick="openTab('b3');" style="background:rgba(140,140,140,0.2);"><b>Do You Know</b><br>1. Lovely Professional University is <br>using Virtualization in Data......</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>AMCAT test for all B. Tech students graduating in 2022 and 2023 </h2>
+  <p>Dear Students,<br>
+
+The AMCAT test for all the students of B. Tech students graduating in 2022 and 2023 (list attached) is scheduled on 15th and 16th April.
+
+It is mandatory for all the students in the attached list to take the test on the above-mentioned dates.
+
+The test will be on auto-proctored mode (instructions attached).
+
+Test username and password will be shared on the test day itself through UMS My messages.<br>
+
+Why AMCAT: Visit www.myamcat.com › about-amcat<br>
+
+Note:<br>
+
+1. Students who have appeared for the test on 14th March 2020 need not to attempt the test again.<br>
+
+2. The scores of this test will be used to provide specific credited and non-credited inputs.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Recent Trends In Biomedical Sciences 2020 (RTBS-2020)</h2>
+  <p> RECENT TRENDS IN BIOMEDICAL SCIENCES 2020 (RTBS-2020) Conference will focus on emerging opportunities in the field of biomedical and clinical sciences by providing a common and conducive platform for researchers and industrialist from all walks across the country.<br>Venue : Shanti Devi Mittal Auditorium 
+  <br>  Time : 4,Sep 09:00 am --  5,Sep 05:00 pm
+</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:red">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Do You Know</h2>
+  <p>1. Lovely Professional University is using Virtualization in Data Centre from VMWare for consolidation of multiple servers and running legacy applications.<br>2. University Management System gets more than 65000 hits in a day.<br>3. Lovely Professional University is using 35+ servers and 136 TB of storage for CCTV, Database, FTP, Backup etc.<br>4. The Network Backbone of Lovely Professional University is already 10G ready.<br>5. Lovely Professional University has got 600 Mbps of bandwidth from multiple vendors.<br></p>
+</div>
+<footer>
+    <p>
+      <div style="font-size: 1.3em;"> Designed and Developed by </div>
+      Shivang, Saurav and Pujjitha
+  </p>
+</footer>
+
+
+</body>
+</html>
